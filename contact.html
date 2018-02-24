@@ -2,28 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
-    <header>
-        <h1>Robert Queeney</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-            </ul>
-        
+    <header id="masthead">
+    <div class="container"> 
+        <a href="index.html" id="logo">Robert Queeney</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+    </div>
     </header>
-</body>
 
-    <main>
+    <div id="main-container" class="container">
+        <section class="main-container">
+            <h1>Contact</h1>
 
-    </main>
+            <form id="contact form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+
+                    <li>
+                        <label for="">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name+"message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+
+
+
+            </form>
+
+        </section>
+
+        <section class="aside">
+            <div>
+                <h2>Connect with Me</h2>
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\github.png" class="social" alt="Github">
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\linkedin.png" class="social" alt="Linkedin">
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\stack.png" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+    </div>    
 
     <footer>
-
+        <div class="container">
+            &copy; Copyright 2018 Robert Queeney
+        </div>
     </footer>
-
+</body>
 </html>

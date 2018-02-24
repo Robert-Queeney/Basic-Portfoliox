@@ -2,55 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    
-    <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Robert Queeney</h1>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        
+    <header id="masthead">
+    <div class="container"> 
+        <a href="index.html" id="logo">Robert Queeney</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+    </div>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
+    <div id="main-container" class="container">
+        <section class="main-container">
+            <h1>About Me</h1>
             <img src="./assets./images./headshot.jpg" alt="I wish this was me">
-            <p>My least favorite thing to do in the world is talk about myself
-                so this should be a fairly bland and uninformative section.  If 
-                has actually read this far, let me know in class.  I carry wintagreen 
-                lifesavers with me and I will share one with you.  Cheers.<br><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis vel harum ipsum qui porro optio itaque, ad laudantium corrupti. Delectus velit amet necessitatibus dolorem, expedita ipsum ex minus cum beatae?</p>
 
-                Since the example had to paragraphs, I will mirror that here, since 
-                the rest of this assignment looks like a dumpster fire at this point.  
-                And not a clean one either, like outside a paper plant.  We are talking a 
-                medical waste 4 alarm dumpster fire.  Gross.
-            </p>
-
-            
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit enim possimus non, incidunt voluptatibus totam eaque repudiandae quam ex, cumque autem, ea assumenda atque? Voluptate veniam voluptatum iste dolorum?</p>
         </section>
 
-        <aside>
-            <h2>Connect With Me</h2>
-
-        </aside>
-
-
-    </main>
-
-</body>
-
+        <section class="aside">
+            <div>
+                <h2>Connect with Me</h2>
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\github.png" class="social" alt="Github">
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\linkedin.png" class="social" alt="Linkedin">
+                <img src="C:\Users\Robert Queeney\Desktop\Basic-Portfoliox\assets\images\stack.png" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+    </div>    
 
     <footer>
-        Copyright 2016 Robert Queeney
+        <div class="container">
+            &copy; Copyright 2018 Robert Queeney
+        </div>
     </footer>
-
+</body>
 </html>
